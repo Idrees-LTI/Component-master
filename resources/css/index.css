@@ -1,0 +1,141 @@
+#main {
+    padding: 150px;
+    margin-left: 200px;
+    background-color: rgb(233, 232, 232);
+    font-family: sans-serif;
+}
+.js-darkmode {
+    color: black;
+}
+#content {
+    display: flex;
+}
+.drawers {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px 0px 0px 10px;
+}
+.writings {
+    padding: 35px;
+    border-radius: 0px 10px 10px 0px;
+    color: rgb(85, 83, 83);
+    width: 360px;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+}
+.person {
+    display: flex;
+    padding-top: 0px;
+    font-size: small;
+    color: rgb(167, 163, 163);
+}
+.michelle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+h5 {
+    padding-left: 20px;
+}
+p {
+    font-size: small;
+    
+    color: rgb(167, 163, 163);
+}
+.bottom {
+    float: left;
+    position: absolute;
+    padding-left: 70px;
+    line-height: 2rem;
+    color: rgb(167, 163, 163);
+}
+.fa-share {
+    border-radius: 50px;
+    
+    
+}
+.share {
+    
+    
+}
+button {
+    background-color: rgb(27, 41, 41);
+    color: white;  
+    margin-left: 150px;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+button:active {
+    margin: 10px 0px 0px 150px;
+    top: auto;
+}
+.extra {
+    background-color: rgb(27, 41, 41);
+    
+    height: 30px;
+    border-radius: 5px;
+    display: none;
+    margin: -30px 0px 150px -50px;
+
+}
+.extra:active {
+    margin: -30px 0px 150px -50px;
+    
+}
+#extra {
+    display: flex;
+    width: 170px;
+    
+}
+p1 {
+  padding: 10px 10px 50px 10px;
+}
+.fa-facebook, .fa-twitter, .fa-pinterest {
+    padding: 10px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1300px) {
+    #main {
+        padding: 100px;
+    }
+}
+    @media screen and (max-width: 1130px) {
+        #main {
+            padding: 70px;
+        }
+    }
+@media screen and (max-width: 500px) {
+
+    #main {
+        padding: 20px;
+        margin: 10px;
+    }
+    .drawers {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #content {
+        display: grid;
+        
+    }
+    .writings {
+        border-radius: 0px 0px 10px 10px;
+        height: 250px;
+        width: 96%;
+        padding: 0px 10px 10px 10px;
+        margin: 0px 10px 0px 0px;
+    }
+    .person {
+        padding-top: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
